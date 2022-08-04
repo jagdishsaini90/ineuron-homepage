@@ -1,0 +1,109 @@
+.learning-container {
+  margin: auto;
+  max-width: 85%;
+  background: transparent;
+}
+
+.learning-heading {
+  font-size: 3rem;
+  color: #233c7b;
+  width: fit-content;
+  margin: auto;
+  position: relative;
+  margin-bottom: 50px;
+
+  &::before {
+    position: absolute;
+    content: "";
+    top: 100%;
+    width: 50%;
+    height: 4px;
+    left: 0;
+    background: #ea8e30;
+  }
+}
+
+.learning-appbar {
+  background: #fff !important;
+  box-shadow: none !important;
+  margin: 40px 0;
+}
+
+.learning-tab {
+  border: 2px solid #233c7b !important;
+  margin: 0 20px !important;
+  border-radius: 10px !important;
+  text-transform: none !important;
+  font-size: 17px !important;
+  padding: 5px 5px !important;
+  font-weight: bold !important;
+  color: #000 !important;
+
+  &:focus {
+    color: #fff !important;
+    background: #233c7b;
+  }
+}
+span.MuiTabs-indicator.css-1aquho2-MuiTabs-indicator {
+  width: 0 !important;
+}
+
+.learning-tabpanel {
+  text-align: center;
+
+  h1 {
+    color: #233c7b;
+    font-weight: 600;
+  }
+  p {
+    font-size: 17px;
+    margin: 10px 0;
+  }
+}
+
+.learningTab-carousel {
+  padding: 30px 0;
+}
+
+.LearningPanelCard-card {
+  width: 370px;
+  padding: 30px 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+
+  h1 {
+    font-size: 1.5rem;
+    height: fit-content;
+    width: fit-content;
+    margin-top: 10px;
+    text-align: left;
+    line-height: 1.2;
+  }
+
+  p {
+    text-align: left;
+    font-size: 15px;
+  }
+
+  img {
+    width: 100%;
+    height: 200px;
+  }
+
+  div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    span {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    button {
+      background: red !important;
+    }
+  }
+}

@@ -1,0 +1,115 @@
+.Avengers-container {
+  margin: 50px 0 0 0;
+  padding: 50px 100px;
+
+  .Avengers-heading {
+    font-size: 3rem;
+    color: #233c7b;
+    width: fit-content;
+    margin: auto;
+    position: relative;
+    margin-bottom: 50px;
+
+    &::before {
+      position: absolute;
+      content: "";
+      top: 100%;
+      width: 50%;
+      height: 4px;
+      left: 0;
+      background: #ea8e30;
+    }
+  }
+}
+
+.Avengers-Carousel {
+  padding: 100px 0 50px 0;
+}
+.Avengers-card {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.6);
+}
+
+.Avengers-image {
+  position: relative;
+  top: -60px;
+  border-radius: 1rem;
+  width: 180px;
+  height: 180px;
+  margin: auto;
+  background: #fff;
+  background-position: center;
+  background-size: contain;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.4);
+}
+
+.Avengers-info {
+  text-align: center;
+  margin-top: -3rem;
+  margin-bottom: 1rem;
+}
+
+.Avengers-info > .Avengers-name {
+  color: #212121;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.Avengers-info > .Avengers-desc {
+  color: #666666;
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+
+.Avengers-status {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  line-height: 1rem;
+  margin-bottom: 1.3rem;
+}
+
+.Avengers-status-value {
+  color: #212121;
+  font-weight: 700;
+}
+
+.Avengers-status-text {
+  font-size: 0.8rem;
+  color: #7c7c7d;
+}
+
+.Avengers-action {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  border: none;
+  padding: 0.8em 1.9em;
+  border-radius: 0.35rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn-pink {
+  background: #b82151;
+  color: white;
+}
+
+.btn-gray-outline {
+  border: 1px solid;
+  background: transparent;
+  color: #b82151;
+}

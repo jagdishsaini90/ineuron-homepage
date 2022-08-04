@@ -1,0 +1,103 @@
+.footer {
+  padding: 100px 200px 50px 100px;
+  background: #233c7b;
+
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+
+    li:nth-child(1) {
+      width: 400px;
+      div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+      }
+      div:nth-child(1) {
+        position: relative;
+        margin-bottom: 50px;
+        &::before {
+          position: absolute;
+          content: "";
+          width: 50%;
+          top: 130%;
+          left: 0;
+          height: 3px;
+          background: #ea8e30;
+        }
+        div {
+          margin-top: 0;
+        }
+      }
+      div:nth-child(2),
+      div:nth-child(3) {
+        margin-top: 30px;
+        justify-content: flex-start;
+        color: #fff;
+        p {
+          margin-left: 20px;
+          max-width: 80%;
+          font-size: 18px;
+        }
+      }
+    }
+
+    li:nth-child(2) {
+      color: #fff;
+      text-align: left;
+      h1 {
+        position: relative;
+        width: fit-content;
+        &::before {
+          position: absolute;
+          content: "";
+          width: 50%;
+          top: 130%;
+          left: 0;
+          height: 3px;
+          background: #ea8e30;
+        }
+      }
+      .footer-company {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        margin-top: 50px;
+
+        div {
+          margin-right: 30px;
+
+          p {
+            margin-bottom: 10px;
+          }
+        }
+      }
+    }
+
+    li:nth-child(3) {
+      color: #fff;
+      h1 {
+        position: relative;
+        width: fit-content;
+        margin-bottom: 50px;
+        &::before {
+          position: absolute;
+          content: "";
+          width: 50%;
+          top: 130%;
+          left: 0;
+          height: 3px;
+          background: #ea8e30;
+        }
+      }
+      p {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+.Hackathon-container {
+  text-align: center;
+  margin-top: 50px;
+  padding: 50px 0;
+  background: #eef0f5;
+  position: relative;
+
+  .Hackathon-Heading {
+    font-size: 3rem;
+    color: #233c7b;
+    margin: auto;
+    margin-bottom: 50px;
+    position: relative;
+    width: fit-content;
+
+    &::before {
+      position: absolute;
+      content: "";
+      top: 100%;
+      width: 50%;
+      height: 4px;
+      left: 0;
+      background: #ea8e30;
+    }
+  }
+}
+
+.Hackathon-images {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  padding: 0 100px;
+  img {
+    width: 150px;
+  }
+}
+
+.custom-shape-divider-bottom-1659599804 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1659599804 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 149px;
+}
+
+.custom-shape-divider-bottom-1659599804 .shape-fill {
+  fill: #ffffff;
+}

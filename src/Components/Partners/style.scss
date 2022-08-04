@@ -1,0 +1,42 @@
+.Partners-container {
+  margin: 50px 0 0 0;
+  padding: 50px 100px;
+
+  .Partners-heading {
+    font-size: 3rem;
+    color: #233c7b;
+    width: fit-content;
+    margin: auto;
+    position: relative;
+    margin-bottom: 50px;
+
+    &::before {
+      position: absolute;
+      content: "";
+      top: 100%;
+      width: 50%;
+      height: 4px;
+      left: 0;
+      background: #ea8e30;
+    }
+  }
+
+  .Partners-row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    margin: 40px 0;
+
+    img {
+      width: 200px;
+      height: 200px;
+      transition: all 0.2s ease-in-out;
+      border-radius: 50%;
+
+      &:hover {
+        box-shadow: 10px 10px 20px grey;
+      }
+    }
+  }
+}

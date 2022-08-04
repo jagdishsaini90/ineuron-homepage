@@ -1,0 +1,85 @@
+.achievers {
+  background: #dee7fe;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  padding: 80px 0;
+  position: relative;
+
+  .achievers-images {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    margin-top: 50px;
+  }
+
+  h1 {
+    font-size: 3rem;
+    color: #233c7b;
+    position: relative;
+    width: fit-content;
+    margin: auto;
+    &::before {
+      position: absolute;
+      content: "";
+      width: 50%;
+      top: 100%;
+      left: 0;
+      height: 4px;
+      background: #ea8e30;
+    }
+  }
+
+  img {
+    width: 200px;
+    height: fit-content;
+    margin: 20px;
+  }
+
+  img:hover {
+    filter: none;
+    z-index: 100;
+  }
+
+  .custom-shape-divider-bottom-1659184438 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+  }
+
+  .custom-shape-divider-bottom-1659184438 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 403px;
+  }
+
+  .custom-shape-divider-bottom-1659184438 .shape-fill {
+    fill: #ffffff;
+  }
+
+  .achievers-many-more {
+    position: relative;
+    cursor: pointer;
+    color: #233c7b;
+
+    &:hover {
+      color: #031d61;
+    }
+    &::before {
+      position: absolute;
+      content: "";
+      width: 50%;
+      height: 3px;
+      top: 100%;
+      background: #ea8e30;
+    }
+  }
+}
